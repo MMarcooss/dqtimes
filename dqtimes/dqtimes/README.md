@@ -64,3 +64,76 @@ A tarefa aparecerá imediatamente no dashboard Flower.
 
 ## Desenvolvimento local (opcional)
 Se preferir rodar sem Docker, crie um virtualenv, instale `requirements.txt`, configure o Redis localmente e exporte as mesmas variáveis do `.env`. Lembre-se de que as bibliotecas `.so` requerem ambiente Linux/WSL.
+
+
+
+
+# Repositorio_atividade-15
+#15_ref1_ref7_8_2h #94  #15b_ref1_ref7_8_1h #95
+
+
+Este projeto faz parte da atividade de migração de software, onde o objetivo é utilizar uma **biblioteca Python** para simular previsões de dados usando **Celery** (para tarefas assíncronas) e **Redis** (como broker e backend).
+O grupo **1** foi responsável por este repositório, com os contribuidores **João Vitor Rosário Marquardt** e **Nicolas Heling**, responsáveis pela implementação desta task.
+
+
+# Projeto de Migração de Software: Rust → Biblioteca Python
+
+#15_ref1_ref7_8_2h #94  
+#15b_ref1_ref7_8_1h #95  
+
+---
+
+Este projeto faz parte da atividade de migração de software, onde o objetivo é utilizar uma **biblioteca Python** para simular previsões de dados usando **Celery** (para tarefas assíncronas) e **Redis** (como broker e backend).
+
+> **Importante:** não esquecer de ativar a **venv** (ambiente virtual Python) antes de instalar as dependências.
+
+---
+
+## Tecnologias Utilizadas
+
+- **Python 3.10+**
+- **Celery** — gerenciamento de tarefas assíncronas
+- **Redis / Memurai** — usado como broker e backend para o Celery
+- **Random** — geração de valores simulados para previsão
+
+---
+
+## Estrutura do Projeto
+
+
+
+---
+
+## Como Executar o Projeto
+
+1. **Ativar a venv (ambiente virtual)**  
+   - No Windows:
+     ```bash
+     .\venv\Scripts\activate
+     ```
+   - No Linux/Mac:
+     ```bash
+     source venv/bin/activate
+     ```
+
+2. **Instalar as dependências:**
+   ```bash
+   pip install celery redis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
